@@ -1,0 +1,136 @@
+html,body{
+	height:100%;
+	width:100%;
+}
+.new_wrapper {
+    width: 90%;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+.radial {
+    background: -moz-linear-gradient(left 135deg,#029253,#00887b);
+    background: -webkit-gradient(linear,100% 100%,0 0,from(#029253),to(#00887b));
+    background: -webkit-linear-gradient(135deg,#029253,#00887b);
+    background: -o-linear-gradient(135deg,#029253,#00887b);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font: 400 62.5% "黑体",Arial;
+    display: block;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+.new_register, .reg_pwd {
+    position: relative;
+}
+.new_register>div, .reg_pwd>div {
+    position: relative;
+}
+.new_register input, .reg_pwd input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    font: 1.6em "黑体";
+    color: #333;
+    background: #fff;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    padding: 6% 5%;
+    margin: 0;
+}
+.new_register .border_btm {
+    border-bottom: 1px solid #e0e0e0;
+}
+.new_register i.eye, .reg_pwd i.eye {
+    width: 20px;
+    height: 13px;
+    background: url(//img.lagou.com/passport/static/mobile/modules/common/img/psweye_930f545.png) 0 0 no-repeat;
+    background-size: 20px 30px;
+    position: absolute;
+    bottom: 33%;
+    right: 5%;
+    -moz-transition: transform .3s linear 0s;
+    -webkit-transition: transform .3s linear 0s;
+    -o-transition: transform .3s linear 0s;
+    transition: transform .3s linear 0s;
+}
+#vcodeWrap {
+    position: relative;
+}
+#vcode {
+    width: 90%;
+    border: 0;
+    outline: 0;
+    font: 1.6em "黑体";
+    color: #333;
+    background: #fff;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 6% 5%;
+    margin: 10px 0;
+}
+#vcodeWrap img {
+    display: block;
+    margin: 0 0 20px;
+    overflow: hidden;
+    float: left;
+    line-height: 42px;
+}
+#vcodeWrap a {
+    margin-left: 20px;
+    font-size: 1.4em;
+    color: #45e3be;
+    text-decoration: none;
+}
+#vcodeWrap a em {
+    color: #9bffd3;
+    font-style: normal;
+    line-height: 42px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.btn_green {
+    display: block;
+    width: 100%;
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    background: #0ac599;
+    -webkit-box-shadow: 0 2px 0 #008765;
+    -moz-box-shadow: 0 2px 0 #008765;
+    box-shadow: 0 2px 0 #008765;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 5%;
+}
+input[type=button], select, button {
+    -webkit-appearance: none;
+    border: 0;
+    outline: 0;
+}
+.register_text {
+    color: #45e3be;
+    font-size: 1.3em;
+    line-height: 1.3;
+}
+.btn_green_border {
+    display: block;
+    width: 100%;
+    font-size: 2em;
+    color: #45e3be;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #45e3be;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin: 8px 0;
+    padding: 5%;
+}

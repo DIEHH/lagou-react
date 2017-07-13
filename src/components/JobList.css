@@ -1,0 +1,56 @@
+
+.jobList{
+	width:100%;
+	height:100%;
+	padding-bottom:45px;
+}
+ul li{
+	height:90px;
+	padding:15px;
+	font-size:1.8rem;
+	border-bottom:1px solid #eee;
+	text-align:left;
+}
+.filtrate{
+	padding:0 15px;
+	height:43px;
+	line-height:43px;
+}
+.filtrate span{
+	float:left;
+}
+.login{
+	display:block;
+	float:right;
+	color:#00b38a;
+	width:80px;
+	height:34px;
+	line-height: 34px;
+	border-radius: 10px;
+	background:#eee;
+	margin-top:4px;
+	text-align:center;
+}
+.list-more {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #fafafa;
+    padding:0;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 30px;
+    padding-bottom: 80px;
+    color: #333;
+}
+.copyright .copyright-item {
+    height: 32px;
+    line-height: 32px;
+}
+.copyright .copyright-item span.active {
+    color: #999;
+}

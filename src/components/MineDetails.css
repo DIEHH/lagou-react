@@ -1,0 +1,116 @@
+.cont {
+    margin-bottom: 45px;
+    padding: 0 15px;
+}
+.cont .logininfo {
+    margin: 10px 0;
+}
+.cont .nologin {
+    height: 111px;
+}
+.cont .center {
+    text-align: center;
+    width: 125px;
+    margin: 0 auto;
+}
+.cont .nologin .loginbut {
+    font-size: 1.4rem;
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #1fc8a1;
+    position: relative;
+    top: 33px;
+}
+
+.cont .buttons {
+    margin-bottom: 10px;
+}
+.cont .buttons .deliver {
+    float: left;
+}
+.cont .buttons .interview {
+    float: right;
+}
+.cont .buttons .invitation {
+    float: left;
+}
+.cont .buttons .collect {
+    float: right;
+}
+.buttons .button {
+    display: block;
+    width: 48%;
+    height: 86px;
+    line-height: 86px;
+    background-color: #1fc8a1;
+    text-align: center;
+    color: #fff;
+    font-size: 1.6rem;
+    margin-top: 10px;
+    position: relative;
+}
+.cont .logout {
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #1fc8a1;
+    color: #fff;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+.cont .haslogin {
+    position: relative;
+    width: 100%;
+    top: 10px;
+    height: 111px;
+}
+.cont .haslogin .button {
+    position: absolute;
+    color: #00b38a;
+    font-size: 1.4rem;
+    right: 0;
+}
+.cont .haslogin .headcon {
+    height: 81px;
+    width: 81px;
+    margin: 0 auto;
+    -webkit-border-radius: 40.5px;
+    -moz-border-radius: 40.5px;
+    border-radius: 40.5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    overflow: hidden;
+    background-color: #f6f6f6;
+}
+.cont .haslogin .headpic {
+    width: 72px;
+    height: 72px;
+    margin: 4px 0 0 1px;
+    -webkit-border-radius: 36px;
+    -moz-border-radius: 36px;
+    border-radius: 36px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+.cont .haslogin .name {
+    font-size: 1.4rem;
+    color: #333;
+    height: 22px;
+    line-height: 22px;
+}
+.cont .buttons:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}

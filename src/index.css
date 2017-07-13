@@ -1,0 +1,32 @@
+body,html,p,h3,li,ul,h2{
+	margin:0;
+	padding:0;
+}
+body,html{
+	width:100%;
+	height:100%;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+img, input {
+    border: none;
+    outline: none;
+    padding: 0;
+}
+html {
+    font-family: Helvetica;
+    font-size: 65.5%;
+    color: #333;
+}
+a {
+    outline: none;
+    text-decoration: none;
+}
+i, em{
+    font-style: italic;
+}
+#root{
+    height:100%;
+}

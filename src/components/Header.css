@@ -1,0 +1,15 @@
+.header{
+	height:45px;
+	width:100%;
+	text-align:center;
+	background:#00b38a;
+	font-size:1.8rem;
+	color:#fff;
+	padding:1rem 0.4rem 0 0.2rem;
+}
+.p1{
+	float: left;
+}
+.p2{
+	float:right;
+}

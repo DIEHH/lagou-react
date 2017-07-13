@@ -1,0 +1,58 @@
+.item-logo{    
+	display: inline-block;
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+.item-desc{
+	height:62px;
+	margin-left: 70px;
+}
+.list-item{
+    padding: 14px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.item-desc {
+    margin-left: 70px;
+    margin-top: -20px;
+    height: 62px;
+    color: #333;
+}
+.item-desc {
+    margin-left: 70px;
+    height: 62px;
+    color: #333;
+}
+.item-info {
+    margin-bottom: 6px;
+    width: 100%;
+    height: 15px;
+    line-height: 15px;
+}
+.item-time {
+    font-size: 1rem;
+    color: #888;
+}
+.item-title {
+    font-size: 1.6rem;
+    margin-bottom: 6px;
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.item-pos {
+    font-size: 1.2rem;
+    float: left;
+    width: 60%;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.item-salary {
+    font-size: 1.6rem;
+    color: #00b38a;
+    float: right;
+}

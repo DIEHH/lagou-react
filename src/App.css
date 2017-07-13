@@ -1,0 +1,27 @@
+.App {
+  height:100%;
+  width:100%;
+  text-align: center;
+}
+.container{
+  width:100%;
+  height:45px;
+  position: fixed;
+  bottom: 0;
+  font-size:1.8rem;
+  background:#f6f6f6;
+}
+.col-xs-4{
+  line-height:45px;
+  color:#bbb;
+}
+.active{
+  color:#00b38a;
+  text-decoration: none;
+  background-color: #e7f3f0;
+}
+.active:hover{
+  
+  color:#00b38a;
+  text-decoration: none;
+}
